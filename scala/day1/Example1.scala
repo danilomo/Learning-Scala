@@ -20,7 +20,7 @@ class Global {
 }
 
 // This is an object named "Global". It doesn't belong to the "Global" class.
-// Its class is unique, and no other object from its class can be created.
+// Its class is unique, and no other object from this class can be created.
 // Since it has the same name of the previous class, it can access the
 // private and protected members of the objects from that class (and vice-versa).
 // It's called the "companion object" of the "Global" class
