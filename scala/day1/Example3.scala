@@ -12,7 +12,7 @@ def myFilter ( list: List[Int], f: (Int) => Boolean ): List[Int] = {
 			
 			// the double-colon operator creates a new list
 			// inserting the element on the left (i) to the list
-			// of the right (l)
+			// of the right (l) on the beginning of the list
 			l = i :: l
 		}
 	}
