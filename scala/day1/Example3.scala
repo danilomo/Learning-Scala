@@ -29,7 +29,7 @@ println( l.filter( odd ) )
 println( l.filter( (i: Int) => i % 2 == 1 ) )
 
 
-// Omiting the input parameter type, because the compiler can infer (since "l" refers to a list of Int's)
+// Omiting the input parameter type, because the compiler can infer it(since "l" refers to a list of Int's)
 println( l.filter( i => i % 2 == 1)  )
 
 // Using the underscore notation
