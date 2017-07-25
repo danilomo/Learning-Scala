@@ -23,6 +23,7 @@ class Global {
 // Its class is unique, and no other object from its class can be created.
 // Since it has the same name of the previous class, it can access the
 // private and protected members of the objects from that class (and vice-versa).
+// It's called the "companion object" of the "Global" class
 object Global {
 
 	private var privateField: Int = 42
