@@ -9,6 +9,10 @@ def myFilter ( list: List[Int], f: (Int) => Boolean ): List[Int] = {
 		// if the function passed as argument evaluates to true
 		// applied to the element
 		if( f(i) ){
+			
+			// the double-colon operator creates a new list
+			// inserting the element on the left (i) to the list
+			// of the right (l)
 			l = i :: l
 		}
 	}
